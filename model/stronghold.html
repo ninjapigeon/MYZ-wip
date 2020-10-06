@@ -1,0 +1,49 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <div class="stronghold flex column">
+        <div class="bio flex column border">
+            <div class="flex row margin align-center">
+                <div class="avatar">
+                    <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="100" width="100"/>
+                </div>
+                <div class="flex row margin align-end space-around grow">
+                    <div class="flex row wrap">
+                        <div class="name">
+                            <b>{{localize "BIO.NAME"}}</b>
+                            <input name="name" type="text" value="{{actor.name}}"/>
+                        </div>
+                        <div class="location center">
+                            <b>{{localize "STRONGHOLD.LOCATION"}}</b>
+                            <input name="data.location" type="text" value="{{data.location}}"/>
+                        </div>
+                        <div class="defense-rating center">
+                            <b>{{localize "STRONGHOLD.DEFENSE_RATING"}}</b>
+                            <input name="data.defenseRating" type="text" value="{{data.defenseRating}}"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sheet-tabs tabs flex row border" data-group="primary">
+            <b class="item" data-tab="building">{{localize "TAB.BUILDING"}}</b>
+            <b class="item" data-tab="hireling">{{localize "TAB.HIRELING"}}</b>
+            <b class="item" data-tab="gear">{{localize "TAB.GEAR"}}</b>
+            <b class="item" data-tab="note">{{localize "TAB.NOTE"}}</b>
+        </div>
+
+        <div class="sheet-body flex row border">
+            <div class="tab" data-group="primary" data-tab="building">
+                {{> systems/mutant-year-zero/model/tab/building-stronghold.html}}
+            </div>
+            <div class="tab" data-group="primary" data-tab="hireling">
+                {{> systems/mutant-year-zero/model/tab/hireling-stronghold.html}}
+            </div>
+            <div class="tab" data-group="primary" data-tab="gear">
+                {{> systems/mutant-year-zero/model/tab/gear-stronghold.html}}
+            </div>
+            <div class="tab note" data-group="primary" data-tab="note">
+                {{editor content=data.description target="data.description" button=true owner=owner editable=editable}}
+            </div>
+        </div>
+    </div>
+</form>

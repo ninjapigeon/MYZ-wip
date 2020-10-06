@@ -1,0 +1,35 @@
+.mutant-year-zero .stronghold .gears {
+    flex-basis: 50%;
+}
+
+.mutant-year-zero .stronghold .gears .header {
+    background-color: lightslategrey;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px;
+}
+
+.mutant-year-zero .stronghold .gears .gear {
+    align-items: center;
+}
+
+.mutant-year-zero .stronghold .gears .gear .name {
+    flex-basis: 58%;
+}
+
+.mutant-year-zero .stronghold .gears .gear.item .name:hover {
+    text-shadow: 0 0 10px darkolivegreen;
+}
+
+.mutant-year-zero .stronghold .gears .gear .bonus {
+    flex-basis: 17%;
+}
+
+.mutant-year-zero .stronghold .gears .gear .button {
+    flex-basis: 25%;
+}
+
+.mutant-year-zero .stronghold .gears .scrollable {
+    overflow-y: auto;
+    max-height: 185px;
+}

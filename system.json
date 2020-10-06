@@ -1,0 +1,49 @@
+{
+  "name": "mutant-year-zero",
+  "title": "Mutant Year Zero",
+  "description": "",
+  "version": 2.0,
+  "minimumCoreVersion": "0.6.2",
+  "compatibleCoreVersion": "0.6.6",
+  "templateVersion": 2,
+  "author": "Ninjapigeon",
+  "scripts": [],
+  "esmodules": [
+    "script/hooks.js"
+  ],
+  "styles": [
+    "style/common.css",
+    "style/character.css",
+    "style/monster.css",
+    "style/stronghold.css",
+    "style/item.css",
+    "style/dialog.css",
+    "style/tab/main.css",
+    "style/tab/combat.css",
+    "style/tab/monster-combat.css",
+    "style/tab/monster-gear.css",
+    "style/tab/stronghold-gear.css",
+    "style/tab/stronghold-building.css",
+    "style/tab/stronghold-hireling.css",
+    "style/tab/talent.css",
+    "style/tab/gear.css",
+    "style/tab/bio.css"
+  ],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "gridDistance": 1,
+  "gridUnits": "m",
+  "primaryTokenAttribute": null,
+  "secondaryTokenAttribute": null,
+  "url": "",
+  "socket": true,
+  "manifest": "",
+  "download": "",
+  "license": "LICENSE.txt"
+}

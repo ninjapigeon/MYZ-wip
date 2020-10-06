@@ -1,0 +1,18 @@
+.mutant-year-zero .character .wrapper {
+    flex: 0 0 20%;
+    align-items: center;
+}
+
+.mutant-year-zero .character .wrapper b {
+    background-color: lightslategrey;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+    width: 98%;
+}
+
+.mutant-year-zero .character .wrapper textarea {
+    resize: none;
+    width: 95%;
+    height: 60px;
+}

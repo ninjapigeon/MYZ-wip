@@ -1,0 +1,53 @@
+.mutant-year-zero .monster {
+    height: 100%;
+    width: 100%;
+}
+
+.mutant-year-zero .monster .bio .avatar {
+    flex: 0 0 auto;
+}
+
+.mutant-year-zero .monster .bio .avatar img {
+    border: 1px dashed black;
+    border-radius: 10px;
+}
+
+.mutant-year-zero .monster .bio .name {
+    flex: 0 0 100%;
+}
+
+.mutant-year-zero .monster .bio .armor {
+    flex: 0 0 50%;
+}
+
+.mutant-year-zero .monster .bio .armor b:hover {
+    text-shadow: 0 0 10px darkolivegreen;
+}
+
+.mutant-year-zero .monster .bio .movement {
+    flex: 0 0 50%;
+}
+
+.mutant-year-zero .monster .monster-talent {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px dashed lightslategrey;
+}
+
+.mutant-year-zero .monster .monster-talent:last-child {
+    border-bottom: none;
+}
+
+.mutant-year-zero .monster .monster-attack {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px dashed lightslategrey;
+}
+
+.mutant-year-zero .monster .monster-attack:last-child {
+    border-bottom: none;
+}

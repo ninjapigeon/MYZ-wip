@@ -1,0 +1,71 @@
+.mutant-year-zero .character .talents {
+    flex-basis: 50%;
+}
+
+.mutant-year-zero .character .talents .header {
+    background-color: lightslategrey;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px;
+}
+
+.mutant-year-zero .character .talents .talent {
+    align-items: center;
+}
+
+.mutant-year-zero .character .talents .talent .name {
+    flex-basis: 60%;
+}
+
+.mutant-year-zero .character .talents .talent.item .name:hover {
+    text-shadow: 0 0 10px darkolivegreen;
+}
+
+.mutant-year-zero .character .talents .talent .rank {
+    flex-basis: 15%;
+}
+
+.mutant-year-zero .character .talents .talent .button {
+    flex-basis: 25%;
+}
+
+.mutant-year-zero .character .talents .scrollable {
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+.mutant-year-zero .character .spells {
+    flex-basis: 50%;
+}
+
+.mutant-year-zero .character .spells .spell {
+    align-items: center;
+}
+
+.mutant-year-zero .character .spells .spell .name {
+    flex-basis: 60%;
+}
+
+.mutant-year-zero .character .spells .spell.item .name:hover {
+    text-shadow: 0 0 10px darkolivegreen;
+}
+
+.mutant-year-zero .character .spells .spell .rank {
+    flex-basis: 15%;
+}
+
+.mutant-year-zero .character .spells .spell .button {
+    flex-basis: 25%;
+}
+
+.mutant-year-zero .character .spells .scrollable {
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+.mutant-year-zero .character .spells .header {
+    background-color: lightslategrey;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px;
+}

@@ -1,0 +1,25 @@
+.mutant-year-zero .stronghold {
+    height: 100%;
+    width: 100%;
+}
+
+.mutant-year-zero .stronghold .bio .avatar {
+    flex: 0 0 auto;
+}
+
+.mutant-year-zero .stronghold .bio .avatar img {
+    border: 1px dashed black;
+    border-radius: 10px;
+}
+
+.mutant-year-zero .stronghold .bio .name {
+    flex: 0 0 100%;
+}
+
+.mutant-year-zero .stronghold .bio .location {
+    flex: 0 0 50%;
+}
+
+.mutant-year-zero .stronghold .bio .defense-rating {
+    flex: 0 0 50%;
+}
